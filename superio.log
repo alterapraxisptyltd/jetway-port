@@ -1,0 +1,42 @@
+superiotool r4.0-5350-g952cc10
+Found Fintek F71869AD (vid=0x3419, id=0x0710) at 0x2e
+Register dump:
+idx 20 21 23 24 25 26 27 28  29 2a 2b 2c 2d
+val 10 07 19 34 00 00 a1 01  6f 24 00 60 2f
+def 06 01 19 34 00 00 MM 00  00 00 00 00 08
+LDN 0x00 (Floppy)
+idx 30 60 61 70 74 f0 f2 f4
+val 00 03 f0 06 02 0e ff 00
+def 01 03 f0 06 02 0e 03 00
+LDN 0x01 (COM1)
+idx 30 60 61 70 f0
+val 01 03 f8 04 00
+def 01 03 f8 04 00
+LDN 0x02 (COM2)
+idx 30 60 61 70 f0 f1
+val 00 02 f8 03 00 44
+def 01 02 f8 03 00 04
+LDN 0x03 (Parallel port)
+idx 30 60 61 70 74 f0
+val 00 03 78 07 03 42
+def 01 03 78 07 03 42
+LDN 0x04 (Hardware monitor)
+idx 30 60 61 70
+val 01 02 25 00
+def 01 02 95 00
+LDN 0x05 (Keyboard)
+idx 30 60 61 70 72 f0 fe ff
+val 01 00 60 01 0c ff 81 29
+def 01 00 60 01 0c 83 81 29
+LDN 0x06 (GPIO)
+idx 30 60 61 70 f0 f1 f2 f3  e0 e1 e2 e3 e4 e5 e6 d0  d1 d2 d3 c0 c1 c2 b0 b1  b2 b3 a0 a1 a2 a3 90 91  92 93
+val 01 0a 00 00 00 3f 00 00  20 df 91 00 00 00 05 00  ff 87 00 ff 00 00 00 ff  73 00 00 1f 00 ff 00 ff  00 00
+def 00 00 00 00 00 3f NA 00  00 ff NA 00 00 00 00 00  ff NA 00 00 ff NA 00 0f  NA 00 00 1f NA 00 00 3f  NA 00
+LDN 0x07 (BSEL)
+idx 30 60 61 f0 f2 f3 f4 f5  f6 f7
+val 00 00 00 01 ff ff ff 12  0a 01
+def 00 00 00 01 00 00 NA 00  0a 00
+LDN 0x0a (PME, ACPI)
+idx 30 f0 f1 f2 f3 f4 f5 f6  f7 f8 f9 fe ff
+val 00 00 6a 00 00 46 1c 1f  86 00 00 00 00
+def 00 00 00 NA NA 06 1c 1f  86 00 00 00 00

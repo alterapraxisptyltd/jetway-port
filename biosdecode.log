@@ -1,0 +1,38 @@
+# biosdecode 2.12
+ACPI 2.0 present.
+	OEM Identifier: ALASKA
+	RSD Table 32-bit Address: 0xA7A61028
+	XSD Table 64-bit Address: 0x00000000A7A61068
+SMBIOS 2.7 present.
+	Structure Table Length: 2024 bytes
+	Structure Table Address: 0x000E9750
+	Number Of Structures: 50
+	Maximum Structure Size: 184 bytes
+PNP BIOS 1.0 present.
+	Event Notification: Not Supported
+	Real Mode 16-bit Code Address: F000:BC86
+	Real Mode 16-bit Data Address: F000:0000
+	16-bit Protected Mode Code Address: 0x000FBCAE
+	16-bit Protected Mode Data Address: 0x000F0000
+PCI Interrupt Routing 1.0 present.
+	Router ID: 00:14.3
+	Exclusive IRQs: None
+	Compatible Router: 1002:439d
+	Slot Entry 1: ID 00:14, on-board
+	Slot Entry 2: ID 00:12, on-board
+	Slot Entry 3: ID 00:13, on-board
+	Slot Entry 4: ID 00:16, on-board
+	Slot Entry 5: ID 00:11, on-board
+	Slot Entry 6: ID 00:15, on-board
+	Slot Entry 7: ID 04:00, slot number 32
+	Slot Entry 8: ID 00:01, on-board
+	Slot Entry 9: ID 01:00, slot number 20
+	Slot Entry 10: ID 00:05, on-board
+	Slot Entry 11: ID 00:06, on-board
+	Slot Entry 12: ID 02:00, slot number 22
+	Slot Entry 13: ID 00:07, on-board
+	Slot Entry 14: ID 00:08, on-board
+	Slot Entry 15: ID 00:04, on-board
+	Slot Entry 16: ID 03:05, on-board
+	Slot Entry 17: ID 03:06, on-board
+	Slot Entry 18: ID 00:00, on-board
