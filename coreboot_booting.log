@@ -1,0 +1,218 @@
+coreboot-4.0-5365-gdbef612-dirty-alterapraxisptyltd Mon Jan 27 19:18:58 EST 2014 starting...
+BSP Family_Model: 00500f20 
+cpu_init_detectedx = 00000000 
+agesawrapper_amdinitmmio passed.
+agesawrapper_amdinitreset passed.
+agesawrapper_amdinitearly passed.
+agesawrapper_amdinitpost passed.
+agesawrapper_amdinitenv BiosAllocateBuffer BiosHeapBaseAddr: 10000
+BiosAllocateBuffer BiosHeapBaseAddr: 10000
+BiosAllocateBuffer BiosHeapBaseAddr: 10000
+passed.
+Loading image.
+CBFS: loading stage fallback/coreboot_ram @ 0x200000 (1343532 bytes), entry @ 0x200000
+Jumping to image.
+coreboot-4.0-5365-gdbef612-dirty-alterapraxisptyltd Mon Jan 27 19:18:58 EST 2014 booting...
+BS: BS_PRE_DEVICE times (us): entry 0 run 2 exit 0
+BS: BS_DEV_INIT_CHIPS times (us): entry 0 run 6 exit 0
+Enumerating buses...
+Show all devs...Before device enumeration.
+Root Device: enabled 1
+CPU_CLUSTER: 0: enabled 1
+APIC: 00: enabled 1
+DOMAIN: 0000: enabled 1
+PCI: 00:00.0: enabled 1
+PCI: 00:01.0: enabled 1
+PCI: 00:01.1: enabled 1
+PCI: 00:04.0: enabled 1
+PCI: 00:05.0: enabled 0
+PCI: 00:06.0: enabled 1
+PCI: 00:07.0: enabled 0
+PCI: 00:08.0: enabled 0
+PCI: 00:11.0: enabled 1
+PCI: 00:12.0: enabled 1
+PCI: 00:12.2: enabled 1
+PCI: 00:13.0: enabled 1
+PCI: 00:13.2: enabled 1
+PCI: 00:14.0: enabled 1
+I2C: 00:50: enabled 1
+I2C: 00:51: enabled 1
+PCI: 00:14.1: enabled 1
+PCI: 00:14.2: enabled 1
+PCI: 00:14.3: enabled 1
+PNP: 004e.0: enabled 0
+PNP: 004e.3: enabled 0
+PNP: 004e.4: enabled 0
+PNP: 004e.5: enabled 1
+PNP: 004e.6: enabled 0
+PNP: 004e.a: enabled 0
+PNP: 004e.10: enabled 1
+PNP: 004e.11: enabled 1
+PCI: 00:14.4: enabled 1
+PCI: 00:14.5: enabled 1
+PCI: 00:14.6: enabled 0
+PCI: 00:15.0: enabled 1
+PCI: 00:15.1: enabled 0
+PCI: 00:15.2: enabled 0
+PCI: 00:15.3: enabled 0
+PCI: 00:16.0: enabled 1
+PCI: 00:16.2: enabled 1
+PCI: 00:18.0: enabled 1
+PCI: 00:18.1: enabled 1
+PCI: 00:18.2: enabled 1
+PCI: 00:18.3: enabled 1
+PCI: 00:18.4: enabled 1
+PCI: 00:18.5: enabled 1
+PCI: 00:18.6: enabled 1
+PCI: 00:18.7: enabled 1
+Compare with tree...
+Root Device: enabled 1
+ CPU_CLUSTER: 0: enabled 1
+  APIC: 00: enabled 1
+ DOMAIN: 0000: enabled 1
+  PCI: 00:00.0: enabled 1
+  PCI: 00:01.0: enabled 1
+  PCI: 00:01.1: enabled 1
+  PCI: 00:04.0: enabled 1
+  PCI: 00:05.0: enabled 0
+  PCI: 00:06.0: enabled 1
+  PCI: 00:07.0: enabled 0
+  PCI: 00:08.0: enabled 0
+  PCI: 00:11.0: enabled 1
+  PCI: 00:12.0: enabled 1
+  PCI: 00:12.2: enabled 1
+  PCI: 00:13.0: enabled 1
+  PCI: 00:13.2: enabled 1
+  PCI: 00:14.0: enabled 1
+   I2C: 00:50: enabled 1
+   I2C: 00:51: enabled 1
+  PCI: 00:14.1: enabled 1
+  PCI: 00:14.2: enabled 1
+  PCI: 00:14.3: enabled 1
+   PNP: 004e.0: enabled 0
+   PNP: 004e.3: enabled 0
+   PNP: 004e.4: enabled 0
+   PNP: 004e.5: enabled 1
+   PNP: 004e.6: enabled 0
+   PNP: 004e.a: enabled 0
+   PNP: 004e.10: enabled 1
+   PNP: 004e.11: enabled 1
+  PCI: 00:14.4: enabled 1
+  PCI: 00:14.5: enabled 1
+  PCI: 00:14.6: enabled 0
+  PCI: 00:15.0: enabled 1
+  PCI: 00:15.1: enabled 0
+  PCI: 00:15.2: enabled 0
+  PCI: 00:15.3: enabled 0
+  PCI: 00:16.0: enabled 1
+  PCI: 00:16.2: enabled 1
+  PCI: 00:18.0: enabled 1
+  PCI: 00:18.1: enabled 1
+  PCI: 00:18.2: enabled 1
+  PCI: 00:18.3: enabled 1
+  PCI: 00:18.4: enabled 1
+  PCI: 00:18.5: enabled 1
+  PCI: 00:18.6: enabled 1
+  PCI: 00:18.7: enabled 1
+Mainboard NF81-T56N-LF Enable.
+scan_static_bus for Root Device
+setup_bsp_ramtop, TOP MEM: msr.lo = 0xe0000000, msr.hi = 0x00000000
+setup_bsp_ramtop, TOP MEM2: msr.lo = 0x1f000000, msr.hi = 0x00000001
+setup_uma_memory: uma size 0x18000000, memory start 0xc8000000
+CPU_CLUSTER: 0 enabled
+DOMAIN: 0000 enabled
+CPU_CLUSTER: 0 scanning...
+  AP siblings=1
+CPU: APIC: 00 enabled
+memalign(boundary=36, size=2653864): failed: Tried to round up free_mem_ptr 00000004 to 0028802c
+but free_mem_end_ptr is 0034802c
+Error! memalign: Out of memory (free_mem_ptr >= free_mem_end_ptr)
+
+coreboot-4.0-5365-gdbef612-dirty-alterapraxisptyltd Mon Jan 27 19:18:58 EST 2014 starting...
+BSP Family_Model: 00500f20 
+cpu_init_detectedx = 00000000 
+agesawrapper_amdinitmmio passed.
+agesawrapper_amdinitreset passed.
+agesawrapper_amdinitearly passed.
+agesawrapper_amdinitpost passed.
+agesawrapper_amdinitenv BiosAllocateBuffer BiosHeapBaseAddr: 10000
+BiosAllocateBuffer BiosHeapBaseAddr: 10000
+BiosAllocateBuffer BiosHeapBaseAddr: 10000
+passed.
+Loading image.
+CBFS: loading stage fallback/coreboot_ram @ 0x200000 (1343532 bytes), entry @ 0x200000
+Jumping to image.
+
+
+coreboot-4.0-5365-gdbef612-dirty-alterapraxisptyltd Mon Jan 27 19:18:58 EST 2014 starting...
+BSP Family_Model: 00500f20 
+cpu_init_detectedx = 00000000 
+agesawrapper_amdinitmmio passed.
+agesawrapper_amdinitreset passed.
+agesawrapper_amdinitearly passed.
+agesawrapper_amdinitpost 
+EventLog:       EventClass = 2, EventInfo = 8040100.
+        Param1 = a00a, Param2 = 0.
+        Param3 = 0, Param4 = 0.
+
+EventLog:       EventClass = 2, EventInfo = 8040100.
+        Param1 = a00a, Param2 = 0.
+        Param3 = 0, Param4 = 0.
+
+EventLog:       EventClass = 2, EventInfo = 8040100.
+        Param1 = a00a, Param2 = 0.
+        Param3 = 0, Param4 = 0.
+
+EventLog:       EventClass = 2, EventInfo = 8040100.
+        Param1 = a00a, Param2 = 0.
+        Param3 = 0, Param4 = 0.
+
+EventLog:       EventClass = 2, EventInfo = 8040100.
+        Param1 = a00a, Param2 = 0.
+        Param3 = 0, Param4 = 0.
+
+EventLog:       EventClass = 2, EventInfo = 8040100.
+        Param1 = a00a, Param2 = 0.
+        Param3 = 0, Param4 = 0.
+
+EventLog:       EventClass = 2, EventInfo = 8040100.
+        Param1 = a00a, Param2 = 0.
+        Param3 = 0, Param4 = 0.
+
+EventLog:       EventClass = 2, EventInfo = 8040100.
+        Param1 = a00a, Param2 = 0.
+        Param3 = 0, Param4 = 0.
+
+EventLog:       EventClass = 2, EventInfo = 8040100.
+        Param1 = a00a, Param2 = 0.
+        Param3 = 0, Param4 = 0.
+
+EventLog:       EventClass = 2, EventInfo = 8040100.
+        Param1 = a00a, Param2 = 0.
+        Param3 = 0, Param4 = 0.
+
+EventLog:       EventClass = 2, EventInfo = 8040100.
+        Param1 = a00a, Param2 = 0.
+        Param3 = 0, Param4 = 0.
+
+EventLog:       EventClass = 2, EventInfo = 8040100.
+        Param1 = a00a, Param2 = 0.
+        Param3 = 0, Param4 = 0.
+
+EventLog:       EventClass = 2, EventInfo = 8040100.
+        Param1 = a00a, Param2 = 0.
+        Param3 = 0, Param4 = 0.
+
+EventLog:       EventClass = 2, EventInfo = 8040100.
+        Param1 = a00a, Param2 = 0.
+        Param3 = 0, Param4 = 0.
+
+EventLog:       EventClass = 2, EventInfo = 8040100.
+        Param1 = a00a, Param2 = 0.
+        Param3 = 0, Param4 = 0.
+
+EventLog:       EventClass = 7, EventInfo = 4011c00.
+        Param1 = 0, Param2 = 0.
+        Param3 = 0, Param4 = 0.
+error level: 7 
+agesawrapper_amdinitenv BiosAllocateBuffer BiosHeapBaseAddr: 10000
