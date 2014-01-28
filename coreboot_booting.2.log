@@ -1,0 +1,1064 @@
+ PCI: 00:15.1: enabled 0
+  PCI: 00:15.2: enabled 0
+  PCI: 00:15.3: enabled 0
+  PCI: 00:16.0: enabled 1
+  PCI: 00:16.2: enabled 1
+  PCI: 00:18.0: enabled 1
+  PCI: 00:18.1: enabled 1
+  PCI: 00:18.2: enabled 1
+  PCI: 00:18.3: enabled 1
+  PCI: 00:18.4: enabled 1
+  PCI: 00:18.5: enabled 1
+  PCI: 00:18.6: enabled 1
+  PCI: 00:18.7: enabled 1
+Mainboard NF81-T56N-LF Enable.
+scan_static_bus for Root Device
+setup_bsp_ramtop, TOP MEM: msr.lo = 0xe0000000, msr.hi = 0x00000000
+setup_bsp_ramtop, TOP MEM2: msr.lo = 0x1f000000, msr.hi = 0x00000001
+setup_uma_memory: uma size 0x18000000, memory start 0xc8000000
+CPU_CLUSTER: 0 enabled
+DOMAIN: 0000 enabled
+CPU_CLUSTER: 0 scanning...
+  AP siblings=1
+CPU: APIC: 00 enabled
+memalign(boundary=36, size=2653864): failed: Tried to round up free_mem_ptr 00000004 to 0028802c
+but free_mem_end_ptr is 0034802c
+Error! memalign: Out of memory (free_mem_ptr >= free_mem_end_ptr)
+
+coreboot-4.0-5365-gdbef612-dirty-alterapraxisptyltd Mon Jan 27 19:18:58 EST 2014 starting...
+BSP Family_Model: 00500f20 
+cpu_init_detectedx = 00000000 
+agesawrapper_amdinitmmio passed.
+agesawrapper_amdinitreset passed.
+agesawrapper_amdinitearly passed.
+agesawrapper_amdinitpost passed.
+agesawrapper_amdinitenv BiosAllocateBuffer BiosHeapBaseAddr: 10000
+BiosAllocateBuffer BiosHeapBaseAddr: 10000
+BiosAllocateBuffer BiosHeapBaseAddr: 10000
+passed.
+Loading image.
+CBFS: loading stage fallback/coreboot_ram @ 0x200000 (1343532 bytes), entry @ 0x200000
+Jumping to image.
+coreboot-4.0-5365-gdbef612-dirty-alterapraxisptyltd Mon Jan 27 19:18:58 EST 2014 booting...
+BS: BS_PRE_DEVICE times (us): entry 0 run 2 exit 0
+BS: BS_DEV_INIT_CHIPS times (us): entry 0 run 6 exit 0
+Enumerating buses...
+Show all devs...Before device enumeration.
+Root Device: enabled 1
+CPU_CLUSTER: 0: enabled 1
+APIC: 00: enabled 1
+DOMAIN: 0000: enabled 1
+PCI: 00:00.0: enabled 1
+PCI: 00:01.0: enabled 1
+PCI: 00:01.1: enabled 1
+PCI: 00:04.0: enabled 1
+PCI: 00:05.0: enabled 0
+PCI: 00:06.0: enabled 1
+PCI: 00:07.0: enabled 0
+PCI: 00:08.0: enabled 0
+PCI: 00:11.0: enabled 1
+PCI: 00:12.0: enabled 1
+PCI: 00:12.2: enabled 1
+PCI: 00:13.0: enabled 1
+PCI: 00:13.2: enabled 1
+PCI: 00:14.0: enabled 1
+I2C: 00:50: enabled 1
+I2C: 00:51: enabled 1
+PCI: 00:14.1: enabled 1
+PCI: 00:14.2: enabled 1
+PCI: 00:14.3: enabled 1
+PNP: 004e.0: enabled 0
+PNP: 004e.3: enabled 0
+PNP: 004e.4: enabled 0
+PNP: 004e.5: enabled 1
+PNP: 004e.6: enabled 0
+PNP: 004e.a: enabled 0
+PNP: 004e.10: enabled 1
+PNP: 004e.11: enabled 1
+PCI: 00:14.4: enabled 1
+PCI: 00:14.5: enabled 1
+PCI: 00:14.6: enabled 0
+PCI: 00:15.0: enabled 1
+PCI: 00:15.1: enabled 0
+PCI: 00:15.2: enabled 0
+PCI: 00:15.3: enabled 0
+PCI: 00:16.0: enabled 1
+PCI: 00:16.2: enabled 1
+PCI: 00:18.0: enabled 1
+PCI: 00:18.1: enabled 1
+PCI: 00:18.2: enabled 1
+PCI: 00:18.3: enabled 1
+PCI: 00:18.4: enabled 1
+PCI: 00:18.5: enabled 1
+PCI: 00:18.6: enabled 1
+PCI: 00:18.7: enabled 1
+Compare with tree...
+Root Device: enabled 1
+ CPU_CLUSTER: 0: enabled 1
+  APIC: 00: enabled 1
+ DOMAIN: 0000: enabled 1
+  PCI: 00:00.0: enabled 1
+  PCI: 00:01.0: enabled 1
+  PCI: 00:01.1: enabled 1
+  PCI: 00:04.0: enabled 1
+  PCI: 00:05.0: enabled 0
+  PCI: 00:06.0: enabled 1
+  PCI: 00:07.0: enabled 0
+  PCI: 00:08.0: enabled 0
+  PCI: 00:11.0: enabled 1
+  PCI: 00:12.0: enabled 1
+  PCI: 00:12.2: enabled 1
+  PCI: 00:13.0: enabled 1
+  PCI: 00:13.2: enabled 1
+  PCI: 00:14.0: enabled 1
+   I2C: 00:50: enabled 1
+   I2C: 00:51: enabled 1
+  PCI: 00:14.1: enabled 1
+  PCI: 00:14.2: enabled 1
+  PCI: 00:14.3: enabled 1
+   PNP: 004e.0: enabled 0
+   PNP: 004e.3: enabled 0
+   PNP: 004e.4: enabled 0
+   PNP: 004e.5: enabled 1
+   PNP: 004e.6: enabled 0
+   PNP: 004e.a: enabled 0
+   PNP: 004e.10: enabled 1
+   PNP: 004e.11: enabled 1
+  PCI: 00:14.4: enabled 1
+  PCI: 00:14.5: enabled 1
+  PCI: 00:14.6: enabled 0
+  PCI: 00:15.0: enabled 1
+  PCI: 00:15.1: enabled 0
+  PCI: 00:15.2: enabled 0
+  PCI: 00:15.3: enabled 0
+  PCI: 00:16.0: enabled 1
+  PCI: 00:16.2: enabled 1
+  PCI: 00:18.0: enabled 1
+  PCI: 00:18.1: enabled 1
+  PCI: 00:18.2: enabled 1
+  PCI: 00:18.3: enabled 1
+  PCI: 00:18.4: enabled 1
+  PCI: 00:18.5: enabled 1
+  PCI: 00:18.6: enabled 1
+  PCI: 00:18.7: enabled 1
+Mainboard NF81-T56N-LF Enable.
+scan_static_bus for Root Device
+setup_bsp_ramtop, TOP MEM: msr.lo = 0xe0000000, msr.hi = 0x00000000
+setup_bsp_ramtop, TOP MEM2: msr.lo = 0x1f000000, msr.hi = 0x00000001
+setup_uma_memory: uma size 0x18000000, memory start 0xc8000000
+CPU_CLUSTER: 0 enabled
+DOMAIN: 0000 enabled
+CPU_CLUSTER: 0 scanning...
+  AP siblings=1
+CPU: APIC: 00 enabled
+CPU: APIC: 01 enabled
+DOMAIN: 0000 scanning...
+PCI: pci_scan_bus for bus 00
+PCI: 00:00.0 [1022/1510] ops
+PCI: 00:00.0 [1022/1510] enabled
+PCI: 00:01.0 [1002/9806/000300] has unknown header type 00, ignoring.
+PCI: 00:01.0 [1002/9806] enabled No operations
+PCI: Static device PCI: 00:04.0 not found, disabling it.
+Unexpected Exception: 5 @ 10:00260bff - Halting
+Code: 0 eflags: 00010003
+eax: 00000001 ebx: 0027c0ac ecx: 00000008 edx: 00001514
+edi: 00001022 esi: 00060400 ebp: 00000002 esp: 00287d9c
+
+00260bb8:       2e 0a 00 09 50 61 72 61 
+00260bc0:       6d 31 20 3d 20 25 6c 78 
+00260bc8:       2c 20 50 61 72 61 6d 32 
+00260bd0:       20 3d 20 25 6c 78 2e 0a 
+00260bd8:       00 09 50 61 72 61 6d 33 
+00260be0:       20 3d 20 25 6c 78 2c 20 
+00260be8:       50 61 72 61 6d 34 20 3d 
+00260bf0:       20 25 6c 78 2e 0a 00 73 
+00260bf8:       72 63 2f 6d 61 69 6e 62 
+00260c00:       6f 61 72 64 2f 6a 65 74 
+00260c08:       77 61 79 2f 6e 66 38 31 
+00260c10:       2d 74 35 36 6e 2d 6c 66 
+00260c18:       2f 61 67 65 73 61 77 72 
+00260c20:       61 70 70 65 72 2e 63 00 
+00260c28:       61 67 65 73 61 77 72 61 
+00260c30:       70 70 65 72 5f 61 6d 64 
+
+coreboot-4.0-5365-gdbef612-dirty-alterapraxisptyltd Mon Jan 27 19:18:58 EST 2014 starting...
+BSP Family_Model: 00500f20 
+cpu_init_detectedx = 00000000 
+agesawrapper_amdinitmmio passed.
+agesawrapper_amdinitreset passed.
+agesawrapper_amdinitearly passed.
+agesawrapper_amdinitpost passed.
+agesawrapper_amdinitenv BiosAllocateBuffer BiosHeapBaseAddr: 10000
+BiosAllocateBuffer BiosHeapBaseAddr: 10000
+BiosAllocateBuffer BiosHeapBaseAddr: 10000
+passed.
+Loading image.
+CBFS: loading stage fallback/coreboot_ram @ 0x200000 (1343532 bytes), entry @ 0x200000
+Jumping to image.
+coreboot-4.0-5365-gdbef612-dirty-alterapraxisptyltd Mon Jan 27 19:18:58 EST 2014 booting...
+BS: BS_PRE_DEVICE times (us): entry 0 run 2 exit 0
+BS: BS_DEV_INIT_CHIPS times (us): entry 0 run 6 exit 0
+Enumerating buses...
+Show all devs...Before device enumeration.
+Root Device: enabled 1
+CPU_CLUSTER: 0: enabled 1
+APIC: 00: enabled 1
+DOMAIN: 0000: enabled 1
+PCI: 00:00.0: enabled 1
+PCI: 00:01.0: enabled 1
+PCI: 00:01.1: enabled 1
+PCI: 00:04.0: enabled 1
+PCI: 00:05.0: enabled 0
+PCI: 00:06.0: enabled 1
+PCI: 00:07.0: enabled 0
+PCI: 00:08.0: enabled 0
+PCI: 00:11.0: enabled 1
+PCI: 00:12.0: enabled 1
+PCI: 00:12.2: enabled 1
+PCI: 00:13.0: enabled 1
+PCI: 00:13.2: enabled 1
+PCI: 00:14.0: enabled 1
+I2C: 00:50: enabled 1
+I2C: 00:51: enabled 1
+PCI: 00:14.1: enabled 1
+PCI: 00:14.2: enabled 1
+PCI: 00:14.3: enabled 1
+PNP: 004e.0: enabled 0
+PNP: 004e.3: enabled 0
+PNP: 004e.4: enabled 0
+PNP: 004e.5: enabled 1
+PNP: 004e.6: enabled 0
+PNP: 004e.a: enabled 0
+PNP: 004e.10: enabled 1
+PNP: 004e.11: enabled 1
+PCI: 00:14.4: enabled 1
+PCI: 00:14.5: enabled 1
+PCI: 00:14.6: enabled 0
+PCI: 00:15.0: enabled 1
+PCI: 00:15.1: enabled 0
+PCI: 00:15.2: enabled 0
+PCI: 483:15.3: enabled 0
+Unknown device path type: 60
+: enabled 0
+Unknown device path type: 0
+: enabled 0
+Compare with tree...
+Root Device: enabled 1
+ CPU_CLUSTER: 0: enabled 1
+  APIC: 00: enabled 1
+ DOMAIN: 0000: enabled 1
+  PCI: 00:00.0: enabled 1
+  PCI: 00:01.0: enabled 1
+  PCI: 00:01.1: enabled 1
+  PCI: 00:04.0: enabled 1
+  PCI: 00:05.0: enabled 0
+  PCI: 00:06.0: enabled 1
+  PCI: 00:07.0: enabled 0
+  PCI: 00:08.0: enabled 0
+  PCI: 00:11.0: enabled 1
+  PCI: 00:12.0: enabled 1
+  PCI: 00:12.2: enabled 1
+  PCI: 00:13.0: enabled 1
+  PCI: 00:13.2: enabled 1
+  PCI: 00:14.0: enabled 1
+   I2C: 00:50: enabled 1
+   I2C: 00:51: enabled 1
+  PCI: 00:14.1: enabled 1
+  PCI: 00:14.2: enabled 1
+  PCI: 00:14.3: enabled 1
+   PNP: 004e.0: enabled 0
+   PNP: 004e.3: enabled 0
+   PNP: 004e.4: enabled 0
+   PNP: 004e.5: enabled 1
+   PNP: 004e.6: enabled 0
+   PNP: 004e.a: enabled 0
+   PNP: 004e.10: enabled 1
+   PNP: 004e.11: enabled 1
+  PCI: 00:14.4: enabled 1
+  PCI: 00:14.5: enabled 1
+  PCI: 00:14.6: enabled 0
+  PCI: 00:15.0: enabled 1
+  PCI: 00:15.1: enabled 0
+  PCI: 00:15.2: enabled 0
+  PCI: 483:15.3: enabled 0
+  PCI: 00:16.0: enabled 1
+  PCI: 00:16.2: enabled 1
+  PCI: 00:18.0: enabled 1
+  PCI: 00:18.1: enabled 1
+  PCI: 00:18.2: enabled 1
+  PCI: 00:18.3: enabled 1
+  PCI: 00:18.4: enabled 1
+  PCI: 00:18.5: enabled 1
+  PCI: 00:18.6: enabled 1
+  PCI: 00:18.7: enabled 1
+Mainboard NF81-T56N-LF Enable.
+scan_static_bus for Root Device
+setup_bsp_ramtop, TOP MEM: msr.lo = 0xe0000000, msr.hi = 0x00000000
+setup_bsp_ramtop, TOP MEM2: msr.lo = 0x1f000000, msr.hi = 0x00000001
+setup_uma_memory: uma size 0x18000000, memory start 0xc8000000
+CPU_CLUSTER: 0 enabled
+DOMAIN: 0000 enabled
+CPU_CLUSTER: 0 scanning...
+ERROR: 00:18.0 not found
+%t_pbusilssÃfĐZÑ1ÂRѝZ1ÊʅÂÀ¶ÀÃø re xurce b %e 
+
+coreboot-4.0-5365-gdbef612-dirty-alterapraxisptyltd Mon Jan 27 19:18:58 EST 2014 starting...
+BSP Family_Model: 00500f20 
+cpu_init_detectedx = 00000000 
+agesawrapper_amdinitmmio passed.
+agesawrapper_amdinitreset passed.
+agesawrapper_amdinitearly passed.
+agesawrapper_amdinitpost passed.
+agesawrapper_amdinitenv BiosAllocateBuffer BiosHeapBaseAddr: 10000
+BiosAllocateBuffer BiosHeapBaseAddr: 10000
+BiosAllocateBuffer BiosHeapBaseAddr: 10000
+passed.
+Loading image.
+CBFS: loading stage fallback/coreboot_ram @ 0x200000 (1343532 bytes), entry @ 0x200000
+Jumping to image.
+coreboot-4.0-5365-gdbef612-dirty-alterapraxisptyltd Mon Jan 27 19:18:58 EST 2014 booting...
+BS: BS_PRE_DEVICE times (us): entry 0 run 2 exit 0
+BS: BS_DEV_INIT_CHIPS times (us): entry 0 run 6 exit 0
+Enumerating buses...
+Show all devs...Before device enumeration.
+Root Device: enabled 1
+CPU_CLUSTER: 0: enabled 1
+APIC: 00: enabled 1
+DOMAIN: 0000: enabled 1
+PCI: 00:00.0: enabled 1
+PCI: 00:01.0: enabled 1
+PCI: 00:01.1: enabled 1
+PCI: 00:04.0: enabled 1
+PCI: 00:05.0: enabled 0
+PCI: 00:06.0: enabled 1
+PCI: 00:07.0: enabled 0
+PCI: 00:08.0: enabled 0
+PCI: 00:11.0: enabled 1
+PCI: 00:12.0: enabled 1
+PCI: 00:12.2: enabled 1
+PCI: 00:13.0: enabled 1
+PCI: 00:13.2: enabled 1
+PCI: 00:14.0: enabled 1
+I2C: 00:50: enabled 1
+I2C: 00:51: enabled 1
+PCI: 00:14.1: enabled 1
+PCI: 00:14.2: enabled 1
+PCI: 00:14.3: enabled 1
+PNP: 004e.0: enabled 0
+PNP: 004e.3: enabled 0
+PNP: 004e.4: enabled 0
+PNP: 004e.5: enabled 1
+PNP: 004e.6: enabled 0
+PNP: 004e.a: enabled 0
+PNP: 004e.10: enabled 1
+PNP: 004e.11: enabled 1
+PCI: 00:14.4: enabled 1
+PCI: 00:14.5: enabled 1
+PCI: 00:14.6: enabled 0
+PCI: 00:15.0: enabled 1
+PCI: 00:15.1: enabled 0
+PCI: 00:15.2: enabled 0
+PCI: 00:15.3: enabled 0
+PCI: 00:16.0: enabled 1
+PCI: 00:16.2: enabled 1
+PCI: 00:18.0: enabled 1
+PCI: 00:18.1: enabled 1
+PCI: 00:18.2: enabled 1
+PCI: 00:18.3: enabled 1
+PCI: 00:18.4: enabled 1
+PCI: 00:18.5: enabled 1
+PCI: 00:18.6: enabled 1
+
+
+
+
+coreboot-4.0-5365-gdbef612-dirty-alterapraxisptyltd Mon Jan 27 19:18:58 EST 2014 starting...
+BSP Family_Model: 00500f20 
+cpu_init_detectedx = 00000000 
+agesawrapper_amdinitmmio passed.
+agesawrapper_amdinitreset passed.
+agesawrapper_amdinitearly passed.                                                                                         
+agesawrapper_amdinitpost passed.                                                                                          
+agesawrapper_amdinitenv BiosAllocateBuffer BiosHeapBaseAddr: 10000                                                        
+BiosAllocateBuffer BiosHeapBaseAddr: 10000                                                                                
+BiosAllocateBuffer BiosHeapBaseAddr: 10000                                                                                
+passed.
+Loading image.
+CBFS: loading stage fallback/coreboot_ram @ 0x200000 (1343532 bytes), entry @ 0x200000
+Jumping to image.
+coreboot-4.0-5365-gdbef612-dirty-alterapraxisptyltd Mon Jan 27 19:18:58 EST 2014 booting...
+BS: BS_PRE_DEVICE times (us): entry 0 run 2 exit 0
+BS: BS_DEV_INIT_CHIPS times (us): entry 0 run 6 exit 0
+Enumerating buses...
+Show all devs...Before device enumeration.
+Root Device: enabled 1
+CPU_CLUSTER: 0: enabled 1
+APIC: 00: enabled 1
+DOMAIN: 0000: enabled 1
+PCI: 00:00.0: enabled 1
+PCI: 00:01.0: enabled 1
+PCI: 00:01.1: enabled 1
+PCI: 00:04.0: enabled 1
+PCI: 00:05.0: enabled 0
+PCI: 00:06.0: enabled 1
+PCI: 00:07.0: enabled 0
+PCI: 00:08.0: enabled 0
+PCI: 00:11.0: enabled 1
+PCI: 00:12.0: enabled 1
+PCI: 00:12.2: enabled 1
+PCI: 00:13.0: enabled 1
+PCI: 00:13.2: enabled 1
+PCI: 00:14.0: enabled 1
+I2C: 00:50: enabled 1
+I2C: 00:51: enabled 1
+PCI: 00:14.1: enabled 1
+PCI: 00:14.2: enabled 1
+PCI: 00:14.3: enabled 1
+PNP: 004e.0: enabled 0
+PNP: 004e.3: enabled 0
+PNP: 004e.4: enabled 0
+PNP: 004e.5: enabled 1
+PNP: 004e.6: enabled 0
+PNP: 004e.a: enabled 0
+PNP: 004e.10: enabled 1
+PNP: 004e.11: enabled 1
+PCI: 00:14.4: enabled 1
+PCI: 00:14.5: enabled 1
+PCI: 00:14.6: enabled 0
+PCI: 00:15.0: enabled 1
+PCI: 00:15.1: enabled 0
+PCI: 00:15.2: enabled 0
+PCI: 00:15.3: enabled 0
+PCI: 00:16.0: enabled 1
+PCI: 00:16.2: enabled 1
+PCI: 00:18.0: enabled 1
+PCI: 00:18.1: enabled 1
+PCI: 00:18.2: enabled 1
+PCI: 00:18.3: enabled 1
+PCI: 00:18.4: enabled 1
+PCI: 00:18.5: enabled 1
+PCI: 00:18.6: enabled 1
+PCI: 00:18.7: enabled 1
+Compare with tree...
+Root Device: enabled 1
+ CPU_CLUSTER: 0: enabled 1
+  APIC: 00: enabled 1
+ DOMAIN: 0000: enabled 1
+  PCI: 00:00.0: enabled 1
+  PCI: 00:01.0: enabled 1
+  PCI: 00:01.1: enabled 1
+  PCI: 00:04.0: enabled 1
+  PCI: 00:05.0: enabled 0
+  PCI: 00:06.0: enabled 1
+  PCI: 00:07.0: enabled 0
+  PCI: 00:08.0: enabled 0
+  PCI: 00:11.0: enabled 1
+  PCI: 00:12.0: enabled 1
+  PCI: 00:12.2: enabled 1
+  PCI: 00:13.0: enabled 1
+  PCI: 00:13.2: enabled 1
+  PCI: 00:14.0: enabled 1
+   I2C: 00:50: enabled 1
+   I2C: 00:51: enabled 1
+  PCI: 00:14.1: enabled 1
+  PCI: 00:14.2: enabled 1
+  PCI: 00:14.3: enabled 1
+   PNP: 004e.0: enabled 0
+   PNP: 004e.3: enabled 0
+   PNP: 004e.4: enabled 0
+   PNP: 004e.5: enabled 1
+   PNP: 004e.6: enabled 0
+   PNP: 004e.a: enabled 0
+   PNP: 004e.10: enabled 1
+   PNP: 004e.11: enabled 1
+  PCI: 00:14.4: enabled 1
+  PCI: 00:14.5: enabled 1
+  PCI: 00:14.6: enabled 0
+  PCI: 00:15.0: enabled 1
+  PCI: 00:15.1: enabled 0
+  PCI: 00:15.2: enabled 0
+  PCI: 00:15.3: enabled 0
+  PCI: 00:16.0: enabled 1
+  PCI: 00:16.2: enabled 1
+  PCI: 00:18.0: enabled 1
+  PCI: 00:18.1: enabled 1
+  PCI: 00:18.2: enabled 1
+  PCI: 00:18.3: enabled 1
+  PCI: 00:18.4: enabled 1
+  PCI: 00:18.5: enabled 1
+  PCI: 00:18.6: enabled 1
+  PCI: 00:18.7: enabled 1
+Mainboard NF81-T56N-LF Enable.
+scan_static_bus for Root Device
+setup_bsp_ramtop, TOP MEM: msr.lo = 0xe0000000, msr.hi = 0x00000000
+setup_bsp_ramtop, TOP MEM2: msr.lo = 0x1f000000, msr.hi = 0x00000001
+setup_uma_memory: uma size 0x18000000, memory start 0xc8000000
+CPU_CLUSTER: 0 enabled
+DOMAIN: 0000 enabled
+CPU_CLUSTER: 0 scanning...
+  AP siblings=1
+CPU: APIC: 00 enabled
+CPU: APIC: 01 enabled
+DOMAIN: 0000 scanning...
+PCI: pci_scan_bus for bus 00
+PCI: 00:00.0 [1022/1510] ops
+PCI: 00:00.0 [1022/1510] enabled
+PCI: 00:01.0 [1002/9806] enabled
+PCI: Static device PCI: 00:04.0 not found, disabling it.
+Capability: type 0x01 @ 0x50
+Capability: type 0x10 @ 0x58
+Capability: type 0x05 @ 0xa0
+Capability: type 0x0d @ 0xb0
+Capability: type 0x08 @ 0xb8
+Capability: type 0x01 @ 0x50
+Capability: type 0x10 @ 0x58
+PCI: 00:06.0 subordinate bus PCI Express
+PCI: 00:06.0 [1022/1514] enabled
+sb800_enable() SB800 - Smbus.c - alink_ab_indx - Start.
+SB800 - Smbus.c - alink_ab_indx - End.
+PCI: 00:11.0 [1002/4393] ops
+PCI: 00:11.0 [1002/4393] enabled
+sb800_enable() PCI: 00:12.0 [1002/4397] ops
+PCI: 00:12.0 [1002/4397] enabled
+sb800_enable() PCI: 00:12.2 [1002/4396] ops
+PCI: 00:12.2 [1002/4396] enabled
+sb800_enable() PCI: 00:13.0 [1002/4397] ops
+PCI: 00:13.0 [1002/4397] enabled
+sb800_enable() PCI: 00:13.2 [1002/4396] ops
+PCI: 00:13.2 [1002/4396] enabled
+sb800_enable() sm_init().
+IOAPIC: Clearing IOAPIC at 0xfec00000
+IOAPIC: 24 interrupts
+IOAPIC: reg 0x00000000 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000001 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000002 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000003 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000004 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000005 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000006 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000007 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000008 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000009 value 0x00000000 0x00010000
+IOAPIC: reg 0x0000000a value 0x00000000 0x00010000
+IOAPIC: reg 0x0000000b value 0x00000000 0x00010000
+IOAPIC: reg 0x0000000c value 0x00000000 0x00010000
+IOAPIC: reg 0x0000000d value 0x00000000 0x00010000
+IOAPIC: reg 0x0000000e value 0x00000000 0x00010000
+IOAPIC: reg 0x0000000f value 0x00000000 0x00010000
+IOAPIC: reg 0x00000010 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000011 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000012 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000013 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000014 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000015 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000016 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000017 value 0x00000000 0x00010000
+IOAPIC: Initializing IOAPIC at 0xfec00000
+IOAPIC: Bootstrap Processor Local APIC = 0x00
+IOAPIC: ID = 0x02
+IOAPIC: Dumping registers
+  reg 0x0000: 0x02000000
+  reg 0x0001: 0x00178021
+  reg 0x0002: 0x02000000
+IOAPIC: 24 interrupts
+IOAPIC: Enabling interrupts on FSB
+IOAPIC: reg 0x00000000 value 0x00000000 0x00000700
+IOAPIC: reg 0x00000001 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000002 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000003 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000004 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000005 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000006 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000007 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000008 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000009 value 0x00000000 0x00010000
+IOAPIC: reg 0x0000000a value 0x00000000 0x00010000
+IOAPIC: reg 0x0000000b value 0x00000000 0x00010000
+IOAPIC: reg 0x0000000c value 0x00000000 0x00010000
+IOAPIC: reg 0x0000000d value 0x00000000 0x00010000
+IOAPIC: reg 0x0000000e value 0x00000000 0x00010000
+IOAPIC: reg 0x0000000f value 0x00000000 0x00010000
+IOAPIC: reg 0x00000010 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000011 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000012 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000013 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000014 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000015 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000016 value 0x00000000 0x00010000
+IOAPIC: reg 0x00000017 value 0x00000000 0x00010000
+PCI: 00:14.0 [1002/4385] enabled
+sb800_enable() PCI: Static device PCI: 00:14.1 not found, disabling it.
+sb800_enable() hda enabled
+PCI: 00:14.2 [1002/4383] ops
+PCI: 00:14.2 [1002/4383] enabled
+sb800_enable() PCI: 00:14.3 [1002/439d] bus ops
+PCI: 00:14.3 [1002/439d] enabled
+sb800_enable() PCI: 00:14.4 [1002/4384] bus ops
+PCI: 00:14.4 [1002/4384] enabled
+sb800_enable() PCI: 00:14.5 [1002/4399] ops
+PCI: 00:14.5 [1002/4399] enabled
+sb800_enable() gec disabled
+sb800_enable() Capability: type 0x01 @ 0x50
+Capability: type 0x10 @ 0x58
+Capability: type 0x0d @ 0xb0
+Capability: type 0x08 @ 0xb8
+Capability: type 0x01 @ 0x50
+Capability: type 0x10 @ 0x58
+PCI: 00:15.0 subordinate bus PCI Express
+PCI: 00:15.0 [1002/43a0] enabled
+sb800_enable() Capability: type 0x01 @ 0x50
+Capability: type 0x10 @ 0x58
+Capability: type 0x0d @ 0xb0
+Capability: type 0x08 @ 0xb8
+Capability: type 0x01 @ 0x50
+Capability: type 0x10 @ 0x58
+PCI: 00:15.1 subordinate bus PCI Express
+PCI: 00:15.1 [1002/43a1] disabled
+sb800_enable() Capability: type 0x01 @ 0x50
+Capability: type 0x10 @ 0x58
+Capability: type 0x0d @ 0xb0
+Capability: type 0x08 @ 0xb8
+Capability: type 0x01 @ 0x50
+Capability: type 0x10 @ 0x58
+PCI: 00:15.2 subordinate bus PCI Express
+PCI: 00:15.2 [1002/43a2] disabled
+sb800_enable() Capability: type 0x01 @ 0x50
+Capability: type 0x10 @ 0x58
+Capability: type 0x0d @ 0xb0
+Capability: type 0x08 @ 0xb8
+Capability: type 0x01 @ 0x50
+Capability: type 0x10 @ 0x58
+PCI: 00:15.3 subordinate bus PCI Express
+PCI: 00:15.3 [1002/43a3] disabled
+sb800_enable() PCI: 00:16.0 [1002/4397] ops
+PCI: 00:16.0 [1002/4397] enabled
+sb800_enable() SB800 - Late.c - sb800_callout_entry - Start.
+SB800 - Late.c - sb800_callout_entry - End.
+SB800 - Late.c - sb800_callout_entry - Start.
+SB800 - Late.c - sb800_callout_entry - End.
+SB800 - Late.c - sb800_callout_entry - Start.
+SB800 - Late.c - sb800_callout_entry - End.
+SB800 - Late.c - sb800_callout_entry - Start.
+SB800 - Late.c - sb800_callout_entry - End.
+SB800 - Late.c - sb800_callout_entry - Start.
+SB800 - Late.c - sb800_callout_entry - End.
+SB800 - Late.c - sb800_callout_entry - Start.
+SB800 - Late.c - sb800_callout_entry - End.
+SB800 - Late.c - sb800_callout_entry - Start.
+SB800 - Late.c - sb800_callout_entry - End.
+SB800 - Late.c - sb800_callout_entry - Start.
+SB800 - Late.c - sb800_callout_entry - End.
+SB800 - Late.c - sb800_callout_entry - Start.
+SB800 - Late.c - sb800_callout_entry - End.
+SB800 - Late.c - sb800_callout_entry - Start.
+SB800 - Late.c - sb800_callout_entry - End.
+SB800 - Late.c - sb800_callout_entry - Start.
+SB800 - Late.c - sb800_callout_entry - End.
+SB800 - Late.c - sb800_callout_entry - Start.
+SB800 - Late.c - sb800_callout_entry - End.
+SB800 - Late.c - sb800_callout_entry - Start.
+SB800 - Late.c - sb800_callout_entry - End.
+SB800 - Late.c - sb800_callout_entry - Start.
+SB800 - Late.c - sb800_callout_entry - End.
+SB800 - Late.c - sb800_callout_entry - Start.
+SB800 - Late.c - sb800_callout_entry - End.
+SB800 - Late.c - sb800_callout_entry - Start.
+SB800 - Late.c - sb800_callout_entry - End.
+PCI: 00:16.2 [1002/4396] ops
+PCI: 00:16.2 [1002/4396] enabled
+PCI: 00:18.0 [1022/1700] enabled
+PCI: 00:18.1 [1022/1701] enabled
+PCI: 00:18.2 [1022/1702] enabled
+PCI: 00:18.3 [1022/1703] enabled
+PCI: 00:18.4 [1022/1704] enabled
+PCI: 00:18.5 [1022/1718] enabled
+PCI: 00:18.6 [1022/1716] enabled
+PCI: 00:18.7 [1022/1719] enabled
+PCI: Left over static devices:
+PCI: 00:01.1
+PCI: Check your devicetree.cb.
+do_pci_scan_bridge for PCI: 00:06.0
+PCI: pci_scan_bus for bus 01
+PCI: 01:00.0 [10ec/8168] enabled
+PCI: pci_scan_bus returning with max=001
+Capability: type 0x01 @ 0x40
+Capability: type 0x05 @ 0x50
+Capability: type 0x10 @ 0x70
+Capability: type 0x01 @ 0x50
+Capability: type 0x10 @ 0x58
+do_pci_scan_bridge returns max 1
+scan_static_bus for PCI: 00:14.3
+PNP: 004e.0 disabled
+PNP: 004e.3 disabled
+PNP: 004e.4 disabled
+PNP: 004e.5 enabled
+PNP: 004e.6 disabled
+PNP: 004e.a disabled
+PNP: 004e.10 enabled
+PNP: 004e.11 enabled
+PNP: 004e.1 enabled
+PNP: 004e.2 enabled
+PNP: 004e.7 enabled
+scan_static_bus for PCI: 00:14.3 done
+do_pci_scan_bridge for PCI: 00:14.4
+PCI: pci_scan_bus for bus 02
+PCI: pci_scan_bus returning with max=002
+do_pci_scan_bridge returns max 2
+do_pci_scan_bridge for PCI: 00:15.0
+PCI: pci_scan_bus for bus 03
+PCI: pci_scan_bus returning with max=003
+do_pci_scan_bridge returns max 3
+PCI: pci_scan_bus returning with max=003
+scan_static_bus for Root Device done
+done
+BS: BS_DEV_ENUMERATE times (us): entry 0 run 4525821 exit 0
+found VGA at PCI: 00:01.0
+Setting up VGA for PCI: 00:01.0
+Setting PCI_BRIDGE_CTL_VGA for bridge DOMAIN: 0000
+Setting PCI_BRIDGE_CTL_VGA for bridge Root Device
+Allocating resources...
+Reading resources...
+Root Device read_resources bus 0 link: 0
+CPU_CLUSTER: 0 read_resources bus 0 link: 0
+APIC: 00 missing read_resources
+APIC: 01 missing read_resources
+CPU_CLUSTER: 0 read_resources bus 0 link: 0 done
+
+Fam14h - domain_read_resources
+DOMAIN: 0000 read_resources bus 0 link: 0
+
+Fam14h - nb_read_resources
+PCI: 00:06.0 read_resources bus 1 link: 0
+PCI: 00:06.0 read_resources bus 1 link: 0 done
+PCI: 00:14.0 read_resources bus 0 link: 0
+I2C: 00:50 missing read_resources
+I2C: 00:51 missing read_resources
+PCI: 00:14.0 read_resources bus 0 link: 0 done
+SB800 - Lpc.c - lpc_read_resources - Start.
+SB800 - Lpc.c - lpc_read_resources - End.
+PCI: 00:14.3 read_resources bus 0 link: 0
+PNP: 004e.10 missing read_resources
+PNP: 004e.11 missing read_resources
+PCI: 00:14.3 read_resources bus 0 link: 0 done
+PCI: 00:14.4 read_resources bus 2 link: 0
+PCI: 00:14.4 read_resources bus 2 link: 0 done
+PCI: 00:15.0 register 10(ffffffff), read-only ignoring it
+PCI: 00:15.0 register 14(ffffffff), read-only ignoring it
+PCI: 00:15.0 register 38(ffffffff), read-only ignoring it
+PCI: 00:15.0 read_resources bus 3 link: 0
+PCI: 00:15.0 read_resources bus 3 link: 0 done
+DOMAIN: 0000 read_resources bus 0 link: 0 done
+Root Device read_resources bus 0 link: 0 done
+Done reading resources.
+Show resources in subtree (Root Device)...After reading.
+ Root Device child on link 0 CPU_CLUSTER: 0
+  CPU_CLUSTER: 0 child on link 0 APIC: 00
+   APIC: 00
+   APIC: 01
+  DOMAIN: 0000 child on link 0 PCI: 00:00.0
+  DOMAIN: 0000 resource base 0 size 0 align 0 gran 0 limit ffff flags 40040100 index 10000000
+  DOMAIN: 0000 resource base 0 size 0 align 0 gran 0 limit ffffffff flags 40040200 index 10000100
+   PCI: 00:00.0
+   PCI: 00:00.0 resource base f8000000 size 1000000 align 0 gran 0 limit 0 flags f0000200 index c0010058
+   PCI: 00:01.0
+   PCI: 00:01.0 resource base 0 size 10000000 align 28 gran 28 limit ffffffff flags 1200 index 10
+   PCI: 00:01.0 resource base 0 size 100 align 8 gran 8 limit ffff flags 100 index 14
+   PCI: 00:01.0 resource base 0 size 40000 align 18 gran 18 limit ffffffff flags 200 index 18
+   PCI: 00:04.0
+   PCI: 00:05.0
+   PCI: 00:06.0 child on link 0 PCI: 01:00.0
+   PCI: 00:06.0 resource base 0 size 0 align 12 gran 12 limit ffffffff flags 80102 index 1c
+   PCI: 00:06.0 resource base 0 size 0 align 20 gran 20 limit ffffffffffffffff flags 81202 index 24
+   PCI: 00:06.0 resource base 0 size 0 align 20 gran 20 limit ffffffff flags 80202 index 20
+    PCI: 01:00.0
+    PCI: 01:00.0 resource base 0 size 100 align 8 gran 8 limit ffff flags 100 index 10
+    PCI: 01:00.0 resource base 0 size 1000 align 12 gran 12 limit ffffffffffffffff flags 1201 index 18
+    PCI: 01:00.0 resource base 0 size 4000 align 14 gran 14 limit ffffffffffffffff flags 1201 index 20
+   PCI: 00:07.0
+   PCI: 00:08.0
+   PCI: 00:11.0
+   PCI: 00:11.0 resource base 0 size 8 align 3 gran 3 limit ffff flags 100 index 10
+   PCI: 00:11.0 resource base 0 size 4 align 2 gran 2 limit ffff flags 100 index 14
+   PCI: 00:11.0 resource base 0 size 8 align 3 gran 3 limit ffff flags 100 index 18
+   PCI: 00:11.0 resource base 0 size 4 align 2 gran 2 limit ffff flags 100 index 1c
+   PCI: 00:11.0 resource base 0 size 10 align 4 gran 4 limit ffff flags 100 index 20
+   PCI: 00:11.0 resource base 0 size 400 align 10 gran 10 limit ffffffff flags 200 index 24
+   PCI: 00:12.0
+   PCI: 00:12.0 resource base 0 size 1000 align 12 gran 12 limit ffffffff flags 200 index 10
+   PCI: 00:12.2
+   PCI: 00:12.2 resource base 0 size 100 align 8 gran 8 limit ffffffff flags 200 index 10
+   PCI: 00:13.0
+   PCI: 00:13.0 resource base 0 size 1000 align 12 gran 12 limit ffffffff flags 200 index 10
+   PCI: 00:13.2
+   PCI: 00:13.2 resource base 0 size 100 align 8 gran 8 limit ffffffff flags 200 index 10
+   PCI: 00:14.0 child on link 0 I2C: 00:50
+    I2C: 00:50
+    I2C: 00:51
+   PCI: 00:14.1
+   PCI: 00:14.2
+   PCI: 00:14.2 resource base 0 size 4000 align 14 gran 14 limit ffffffffffffffff flags 201 index 10
+   PCI: 00:14.3 child on link 0 PNP: 004e.0
+   PCI: 00:14.3 resource base 0 size 1 align 0 gran 0 limit ffffffff flags 200 index a0
+   PCI: 00:14.3 resource base 0 size 1000 align 0 gran 0 limit 0 flags c0040100 index 10000000
+   PCI: 00:14.3 resource base ff800000 size 800000 align 0 gran 0 limit 0 flags c0040200 index 10000100
+   PCI: 00:14.3 resource base fec00000 size 1000 align 0 gran 0 limit 0 flags c0000200 index 3
+    PNP: 004e.0
+    PNP: 004e.0 resource base 3f0 size 8 align 3 gran 3 limit 7ff flags c0000100 index 60
+    PNP: 004e.0 resource base 6 size 1 align 0 gran 0 limit 0 flags c0000400 index 70
+    PNP: 004e.0 resource base 2 size 1 align 0 gran 0 limit 0 flags c0000800 index 74
+    PNP: 004e.3
+    PNP: 004e.3 resource base 0 size 8 align 3 gran 3 limit 7ff flags 100 index 60
+    PNP: 004e.3 resource base 0 size 1 align 0 gran 0 limit 0 flags 400 index 70
+    PNP: 004e.3 resource base 0 size 1 align 0 gran 0 limit 0 flags 800 index 74
+    PNP: 004e.4
+    PNP: 004e.4 resource base 0 size 8 align 3 gran 3 limit fff flags 100 index 60
+    PNP: 004e.4 resource base 0 size 1 align 0 gran 0 limit 0 flags 400 index 70
+    PNP: 004e.5
+    PNP: 004e.5 resource base 60 size 1 align 0 gran 0 limit ffffffff flags c0000100 index 60
+    PNP: 004e.5 resource base 64 size 0 align 0 gran 0 limit 0 flags c0000100 index 62
+    PNP: 004e.5 resource base 1 size 1 align 0 gran 0 limit 0 flags c0000400 index 70
+    PNP: 004e.5 resource base 0 size 1 align 0 gran 0 limit 0 flags 400 index 72
+    PNP: 004e.6
+    PNP: 004e.a
+    PNP: 004e.10
+    PNP: 004e.10 resource base 3f8 size 0 align 0 gran 0 limit 0 flags c0000100 index 60
+    PNP: 004e.10 resource base 4 size 0 align 0 gran 0 limit 0 flags c0000400 index 70
+    PNP: 004e.11
+    PNP: 004e.11 resource base 2f8 size 0 align 0 gran 0 limit 0 flags c0000100 index 60
+    PNP: 004e.11 resource base 3 size 0 align 0 gran 0 limit 0 flags c0000400 index 70
+    PNP: 004e.1
+    PNP: 004e.1 resource base 0 size 8 align 3 gran 3 limit 7ff flags 100 index 60
+    PNP: 004e.1 resource base 0 size 1 align 0 gran 0 limit 0 flags 400 index 70
+    PNP: 004e.2
+    PNP: 004e.2 resource base 0 size 8 align 3 gran 3 limit 7ff flags 100 index 60
+    PNP: 004e.2 resource base 0 size 1 align 0 gran 0 limit 0 flags 400 index 70
+    PNP: 004e.7
+    PNP: 004e.7 resource base 0 size 8 align 3 gran 3 limit 7ff flags 100 index 60
+   PCI: 00:14.4
+   PCI: 00:14.4 resource base 0 size 0 align 12 gran 12 limit ffff flags 80102 index 1c
+   PCI: 00:14.4 resource base 0 size 0 align 20 gran 20 limit ffffffff flags 81202 index 24
+   PCI: 00:14.4 resource base 0 size 0 align 20 gran 20 limit ffffffff flags 80202 index 20
+   PCI: 00:14.5
+   PCI: 00:14.5 resource base 0 size 1000 align 12 gran 12 limit ffffffff flags 200 index 10
+   PCI: 00:14.6
+   PCI: 00:15.0
+   PCI: 00:15.1
+   PCI: 00:15.2
+   PCI: 00:15.3
+   PCI: 00:16.0
+   PCI: 00:16.0 resource base 0 size 1000 align 12 gran 12 limit ffffffff flags 200 index 10
+   PCI: 00:16.2
+   PCI: 00:16.2 resource base 0 size 100 align 8 gran 8 limit ffffffff flags 200 index 10
+   PCI: 00:18.0
+   PCI: 00:18.1
+   PCI: 00:18.2
+   PCI: 00:18.3
+   PCI: 00:18.4
+   PCI: 00:18.5
+   PCI: 00:18.6
+   PCI: 00:18.7
+DOMAIN: 0000 compute_resources_io: base: 0 size: 0 align: 0 gran: 0 limit: ffff
+PCI: 00:06.0 compute_resources_io: base: 0 size: 0 align: 12 gran: 12 limit: ffffffff
+PCI: 01:00.0 10 *  [0x0 - 0xff] io
+PCI: 00:06.0 compute_resources_io: base: 100 size: 1000 align: 12 gran: 12 limit: ffff done
+PCI: 00:14.4 compute_resources_io: base: 0 size: 0 align: 12 gran: 12 limit: ffff
+PCI: 00:14.4 compute_resources_io: base: 0 size: 0 align: 12 gran: 12 limit: ffff done
+PCI: 00:06.0 1c *  [0x0 - 0xfff] io
+PCI: 00:01.0 14 *  [0x1000 - 0x10ff] io
+PCI: 00:11.0 20 *  [0x1400 - 0x140f] io
+PCI: 00:11.0 10 *  [0x1410 - 0x1417] io
+PCI: 00:11.0 18 *  [0x1418 - 0x141f] io
+PNP: 004e.1 60 *  [0x1420 - 0x1427] io
+PNP: 004e.2 60 *  [0x1428 - 0x142f] io
+PNP: 004e.7 60 *  [0x1430 - 0x1437] io
+PCI: 00:11.0 14 *  [0x1438 - 0x143b] io
+PCI: 00:11.0 1c *  [0x143c - 0x143f] io
+DOMAIN: 0000 compute_resources_io: base: 1440 size: 1440 align: 12 gran: 0 limit: 7ff done
+DOMAIN: 0000 compute_resources_mem: base: 0 size: 0 align: 0 gran: 0 limit: ffffffff
+PCI: 00:06.0 compute_resources_prefmem: base: 0 size: 0 align: 20 gran: 20 limit: ffffffffffffffff
+PCI: 01:00.0 20 *  [0x0 - 0x3fff] prefmem
+PCI: 01:00.0 18 *  [0x4000 - 0x4fff] prefmem
+PCI: 00:06.0 compute_resources_prefmem: base: 5000 size: 100000 align: 20 gran: 20 limit: ffffffffffffffff done
+PCI: 00:06.0 compute_resources_mem: base: 0 size: 0 align: 20 gran: 20 limit: ffffffff
+PCI: 00:06.0 compute_resources_mem: base: 0 size: 0 align: 20 gran: 20 limit: ffffffff done
+PCI: 00:14.4 compute_resources_prefmem: base: 0 size: 0 align: 20 gran: 20 limit: ffffffff
+PCI: 00:14.4 compute_resources_prefmem: base: 0 size: 0 align: 20 gran: 20 limit: ffffffff done
+PCI: 00:14.4 compute_resources_mem: base: 0 size: 0 align: 20 gran: 20 limit: ffffffff
+PCI: 00:14.4 compute_resources_mem: base: 0 size: 0 align: 20 gran: 20 limit: ffffffff done
+PCI: 00:01.0 10 *  [0x0 - 0xfffffff] prefmem
+PCI: 00:06.0 24 *  [0x10000000 - 0x100fffff] prefmem
+PCI: 00:01.0 18 *  [0x10100000 - 0x1013ffff] mem
+PCI: 00:14.2 10 *  [0x10140000 - 0x10143fff] mem
+PCI: 00:12.0 10 *  [0x10144000 - 0x10144fff] mem
+PCI: 00:13.0 10 *  [0x10145000 - 0x10145fff] mem
+PCI: 00:14.5 10 *  [0x10146000 - 0x10146fff] mem
+PCI: 00:16.0 10 *  [0x10147000 - 0x10147fff] mem
+PCI: 00:11.0 24 *  [0x10148000 - 0x101483ff] mem
+PCI: 00:12.2 10 *  [0x10148400 - 0x101484ff] mem
+PCI: 00:13.2 10 *  [0x10148500 - 0x101485ff] mem
+PCI: 00:16.2 10 *  [0x10148600 - 0x101486ff] mem
+PCI: 00:14.3 a0 *  [0x10148700 - 0x10148700] mem
+DOMAIN: 0000 compute_resources_mem: base: 10148701 size: 10148701 align: 28 gran: 0 limit: ffffffff done
+avoid_fixed_resources: DOMAIN: 0000
+avoid_fixed_resources:@DOMAIN: 0000 10000000 limit 000007ff
+avoid_fixed_resources:@DOMAIN: 0000 10000100 limit ffffffff
+constrain_resources: DOMAIN: 0000
+constrain_resources: PCI: 00:00.0
+constrain_resources: PCI: 00:01.0
+constrain_resources: PCI: 00:06.0
+constrain_resources: PCI: 01:00.0
+constrain_resources: PCI: 00:11.0
+constrain_resources: PCI: 00:12.0
+constrain_resources: PCI: 00:12.2
+constrain_resources: PCI: 00:13.0
+constrain_resources: PCI: 00:13.2
+constrain_resources: PCI: 00:14.0
+constrain_resources: I2C: 00:50
+constrain_resources: I2C: 00:51
+constrain_resources: PCI: 00:14.2
+constrain_resources: PCI: 00:14.3
+constrain_resources: PNP: 004e.5
+skipping PNP: 004e.5@62 fixed resource, size=0!
+constrain_resources: PNP: 004e.10
+skipping PNP: 004e.10@60 fixed resource, size=0!
+skipping PNP: 004e.10@70 fixed resource, size=0!
+constrain_resources: PNP: 004e.11
+skipping PNP: 004e.11@60 fixed resource, size=0!
+skipping PNP: 004e.11@70 fixed resource, size=0!
+constrain_resources: PNP: 004e.1
+constrain_resources: PNP: 004e.2
+constrain_resources: PNP: 004e.7
+constrain_resources: PCI: 00:14.4
+constrain_resources: PCI: 00:14.5
+constrain_resources: PCI: 00:15.0
+constrain_resources: PCI: 00:16.0
+constrain_resources: PCI: 00:16.2
+constrain_resources: PCI: 00:18.0
+constrain_resources: PCI: 00:18.1
+constrain_resources: PCI: 00:18.2
+constrain_resources: PCI: 00:18.3
+constrain_resources: PCI: 00:18.4
+constrain_resources: PCI: 00:18.5
+constrain_resources: PCI: 00:18.6
+constrain_resources: PCI: 00:18.7
+avoid_fixed_resources2: DOMAIN: 0000@10000000 limit 000007ff
+        lim->base 00000000 lim->limit 0000005f
+avoid_fixed_resources2: DOMAIN: 0000@10000100 limit ffffffff
+        lim->base 00000000 lim->limit f7ffffff
+Setting resources...
+DOMAIN: 0000 allocate_resources_io: base:0 size:1440 align:12 gran:0 limit:5f
+!! Resource didn't fit !!
+   aligned base 0 size 1000 limit 5f
+   fff needs to be <= 5f (limit)
+   PCI: 00:06.0 1c *  [0x0 - 0xfff] io
+PCI: 00:06.0 1c *  [0x0 - 0xfff] io
+!! Resource didn't fit !!
+   aligned base 0 size 100 limit 5f
+   ff needs to be <= 5f (limit)
+   PCI: 00:01.0 14 *  [0x1000 - 0x10ff] io
+PCI: 00:01.0 14 *  [0x1000 - 0x10ff] io
+Assigned: PCI: 00:11.0 20 *  [0x0 - 0xf] io
+Assigned: PCI: 00:11.0 10 *  [0x10 - 0x17] io
+Assigned: PCI: 00:11.0 18 *  [0x18 - 0x1f] io
+Assigned: PNP: 004e.1 60 *  [0x20 - 0x27] io
+Assigned: PNP: 004e.2 60 *  [0x28 - 0x2f] io
+Assigned: PNP: 004e.7 60 *  [0x30 - 0x37] io
+Assigned: PCI: 00:11.0 14 *  [0x38 - 0x3b] io
+Assigned: PCI: 00:11.0 1c *  [0x3c - 0x3f] io
+DOMAIN: 0000 allocate_resources_io: next_base: 40 size: 1440 align: 12 gran: 0 done
+PCI: 00:06.0 allocate_resources_io: base:0 size:1000 align:12 gran:12 limit:5f
+!! Resource didn't fit !!
+   aligned base 0 size 100 limit 5f
+   ff needs to be <= 5f (limit)
+   PCI: 01:00.0 10 *  [0x0 - 0xff] io
+PCI: 01:00.0 10 *  [0x0 - 0xff] io
+PCI: 00:06.0 allocate_resources_io: next_base: 0 size: 1000 align: 12 gran: 12 done
+PCI: 00:14.4 allocate_resources_io: base:5f size:0 align:12 gran:12 limit:5f
+PCI: 00:14.4 allocate_resources_io: next_base: 5f size: 0 align: 12 gran: 12 done
+DOMAIN: 0000 allocate_resources_mem: base:e0000000 size:10148701 align:28 gran:0 limit:f7ffffff
+Assigned: PCI: 00:01.0 10 *  [0xe0000000 - 0xefffffff] prefmem
+Assigned: PCI: 00:06.0 24 *  [0xf0000000 - 0xf00fffff] prefmem
+Assigned: PCI: 00:01.0 18 *  [0xf0100000 - 0xf013ffff] mem
+Assigned: PCI: 00:14.2 10 *  [0xf0140000 - 0xf0143fff] mem
+Assigned: PCI: 00:12.0 10 *  [0xf0144000 - 0xf0144fff] mem
+Assigned: PCI: 00:13.0 10 *  [0xf0145000 - 0xf0145fff] mem
+Assigned: PCI: 00:14.5 10 *  [0xf0146000 - 0xf0146fff] mem
+Assigned: PCI: 00:16.0 10 *  [0xf0147000 - 0xf0147fff] mem
+Assigned: PCI: 00:11.0 24 *  [0xf0148000 - 0xf01483ff] mem
+Assigned: PCI: 00:12.2 10 *  [0xf0148400 - 0xf01484ff] mem
+Assigned: PCI: 00:13.2 10 *  [0xf0148500 - 0xf01485ff] mem
+Assigned: PCI: 00:16.2 10 *  [0xf0148600 - 0xf01486ff] mem
+Assigned: PCI: 00:14.3 a0 *  [0xf0148700 - 0xf0148700] mem
+DOMAIN: 0000 allocate_resources_mem: next_base: f0148701 size: 10148701 align: 28 gran: 0 done
+PCI: 00:06.0 allocate_resources_prefmem: base:f0000000 size:100000 align:20 gran:20 limit:f7ffffff
+Assigned: PCI: 01:00.0 20 *  [0xf0000000 - 0xf0003fff] prefmem
+Assigned: PCI: 01:00.0 18 *  [0xf0004000 - 0xf0004fff] prefmem
+PCI: 00:06.0 allocate_resources_prefmem: next_base: f0005000 size: 100000 align: 20 gran: 20 done
+PCI: 00:06.0 allocate_resources_mem: base:f7ffffff size:0 align:20 gran:20 limit:f7ffffff
+PCI: 00:06.0 allocate_resources_mem: next_base: f7ffffff size: 0 align: 20 gran: 20 done
+PCI: 00:14.4 allocate_resources_prefmem: base:f7ffffff size:0 align:20 gran:20 limit:f7ffffff
+PCI: 00:14.4 allocate_resources_prefmem: next_base: f7ffffff size: 0 align: 20 gran: 20 done
+PCI: 00:14.4 allocate_resources_mem: base:f7ffffff size:0 align:20 gran:20 limit:f7ffffff
+PCI: 00:14.4 allocate_resources_mem: next_base: f7ffffff size: 0 align: 20 gran: 20 done
+Root Device assign_resources, bus 0 link: 0
+
+Fam14h - domain_set_resources
+  amsr - incoming dev = 0027b4cc
+adsr: (before) basek = 0, limitk = 11effffff.
+adsr: (after) basek = 0, limitk = 47bfff, sizek = 47c000.
+adsr - 0xa0000 to 0xbffff resource.
+adsr: mmio_basek=00380000, basek=00000300, limitk=0047bfff
+0: mmio_basek=00380000, basek=00400000, limitk=0047bfff
+  adsr - mmio_basek = 380000.
+dword=c8000000
+nvram_pos=f8, dword>>(8*i)=0
+nvram_pos=f9, dword>>(8*i)=0
+nvram_pos=fa, dword>>(8*i)=0
+nvram_pos=fb, dword>>(8*i)=c8
+CBMEM region c7fe0000-c7ffffff (cbmem_late_set_table)
+DOMAIN: 0000 assign_resources, bus 0 link: 0
+
+Fam14h - nb_set_resources
+
+Fam14h - create_vga_resource
+
+Fam14h - set_resource
+PCI: 00:00.0 c0010058 <- [0x00f8000000 - 0x00f8ffffff] size 0x01000000 gran 0x00 mem <mmconfig>
+PCI: 00:01.0 10 <- [0x00e0000000 - 0x00efffffff] size 0x10000000 gran 0x1c prefmem
+ERROR: PCI: 00:01.0 14 io size: 0x0000000100 not assigned
+PCI: 00:01.0 18 <- [0x00f0100000 - 0x00f013ffff] size 0x00040000 gran 0x12 mem
+PCI: 00:06.0 1c <- [0x0000000000 - 0x0000000fff] size 0x00001000 gran 0x0c bus 01 io
+PCI: 00:06.0 24 <- [0x00f0000000 - 0x00f00fffff] size 0x00100000 gran 0x14 bus 01 prefmem
+PCI: 00:06.0 20 <- [0x00f7ffffff - 0x00f7fffffe] size 0x00000000 gran 0x14 bus 01 mem
+PCI: 00:06.0 assign_resources, bus 1 link: 0
+ERROR: PCI: 01:00.0 10 io size: 0x0000000100 not assigned
+PCI: 01:00.0 18 <- [0x00f0004000 - 0x00f0004fff] size 0x00001000 gran 0x0c prefmem64
+PCI: 01:00.0 20 <- [0x00f0000000 - 0x00f0003fff] size 0x00004000 gran 0x0e prefmem64
+PCI: 00:06.0 assign_resources, bus 1 link: 0
+PCI: 00:11.0 10 <- [0x0000000010 - 0x0000000017] size 0x00000008 gran 0x03 io
+PCI: 00:11.0 14 <- [0x0000000038 - 0x000000003b] size 0x00000004 gran 0x02 io
+PCI: 00:11.0 18 <- [0x0000000018 - 0x000000001f] size 0x00000008 gran 0x03 io
+PCI: 00:11.0 1c <- [0x000000003c - 0x000000003f] size 0x00000004 gran 0x02 io
+PCI: 00:11.0 20 <- [0x0000000000 - 0x000000000f] size 0x00000010 gran 0x04 io
+PCI: 00:11.0 24 <- [0x00f0148000 - 0x00f01483ff] size 0x00000400 gran 0x0a mem
+PCI: 00:12.0 10 <- [0x00f0144000 - 0x00f0144fff] size 0x00001000 gran 0x0c mem
+PCI: 00:12.2 10 <- [0x00f0148400 - 0x00f01484ff] size 0x00000100 gran 0x08 mem
+PCI: 00:13.0 10 <- [0x00f0145000 - 0x00f0145fff] size 0x00001000 gran 0x0c mem
+PCI: 00:13.2 10 <- [0x00f0148500 - 0x00f01485ff] size 0x00000100 gran 0x08 mem
+PCI: 00:14.2 10 <- [0x00f0140000 - 0x00f0143fff] size 0x00004000 gran 0x0e mem64
+SB800 - Lpc.c - lpc_set_resources - Start.
+PCI: 00:14.3 a0 <- [0x00f0148702 - 0x00f0148702] size 0x00000001 gran 0x00 mem
+PCI: 00:14.3 assign_resources, bus 0 link: 0
+PNP: 004e.5 60 <- [0x0000000060 - 0x0000000060] size 0x00000001 gran 0x00 io
+PNP: 004e.5 62 <- [0x0000000064 - 0x0000000063] size 0x00000000 gran 0x00 io
+PNP: 004e.5 70 <- [0x0000000001 - 0x0000000001] size 0x00000001 gran 0x00 irq
+ERROR: PNP: 004e.5 72 irq size: 0x0000000001 not assigned
+PNP: 004e.10 missing set_resources
+PNP: 004e.11 missing set_resources
+PNP: 004e.1 60 <- [0x0000000020 - 0x0000000027] size 0x00000008 gran 0x03 io
+ERROR: PNP: 004e.1 70 irq size: 0x0000000001 not assigned
+PNP: 004e.2 60 <- [0x0000000028 - 0x000000002f] size 0x00000008 gran 0x03 io
+ERROR: PNP: 004e.2 70 irq size: 0x0000000001 not assigned
+PNP: 004e.7 60 <- [0x0000000030 - 0x0000000037] size 0x00000008 gran 0x03 io
+PCI: 00:14.3 assign_resources, bus 0 link: 0
+SB800 - Lpc.c - lpc_set_resources - End.
